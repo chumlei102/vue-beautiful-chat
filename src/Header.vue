@@ -27,7 +27,7 @@ export default {
 <style scoped>
 .sc-header {
   background: #4e8cff;
-  min-height: 75px;
+  min-height: 55px;
   border-top-left-radius: 9px;
   border-top-right-radius: 9px;
   color: white;

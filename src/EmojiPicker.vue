@@ -66,7 +66,7 @@ export default {
   position: absolute;
   bottom: 50px;
   right: 0px;
-  width: 330px;
+  width: 300px;
   max-height: 215px;
   box-shadow: 0px 7px 40px 2px rgba(148, 149, 150, 0.3);
   background: white;

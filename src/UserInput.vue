@@ -75,8 +75,10 @@ export default {
     },
     handleKey (event) {
       if (event.keyCode === 13 && !event.shiftKey) {
-        this._submitText(event)
+        // 禁止換行
         event.preventDefault();
+        // submit msg
+        this._submitText(event)
       }
     },
     _submitText (event) {
